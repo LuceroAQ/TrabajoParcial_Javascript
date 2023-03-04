@@ -1,0 +1,128 @@
+ /* estilos de cuerpo principal */
+ *{
+    margin: 0;
+}
+/* estilos al body */
+body{
+    background-color: #f3d9ff;
+    margin: 0;
+    padding: 0;
+}
+p{
+    color: #58635C;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+h1{
+    font-size: 48px;
+}
+
+h3{
+    font-size: 1.2em;
+}
+/* Para h1,h3 se le asigna el tipo de letra y un color */
+h1, h3{
+    color:#3B3936;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* estilos del encabezado */
+#encabezado{
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+   
+}
+/* Se le asigna estilos  los textos */
+.txt{
+    margin-right: 60px;
+    margin: 40px;
+}
+.txt01{
+    margin: 20px;
+}
+.txs{
+    text-align: center;
+    color: black;
+}
+.txs02{
+    text-align: center;
+    color: black;
+    display: flex;
+    justify-content: left;
+
+
+}
+.imagen{
+    padding: 20px;
+}
+.encabezado>img{
+    display: block;
+    position: absolute;
+    width: 150px;
+    top: 20px;
+    left: 40px;
+
+}
+/**estilos de watsap*/
+
+#wattsap{
+    position: fixed;
+    width: 80px;
+    height: 80px;
+    right: 5px;
+    bottom: 5px;
+}
+
+/* estilos de catalogo */
+#catalogo{
+    background-color: white;
+   
+}
+.producto > p{
+    font-family:'Courier New', Courier, monospace;
+
+}
+/* estilos a los productos */
+.producto{
+    display: block;
+    border-color: #CB461B;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 4px;
+    padding: 10px;
+   
+    
+}
+/* estilo a las imagenes del producto */
+.producto > img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+.producto > h3{
+    margin-bottom: 1em;
+}
+/* Estilos de pie de pagina */
+#pie{
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    border-top:dotted;
+    
+}
+/* estilos a la clase pie_page */
+.pie_page{
+    padding: 30px;
+    margin:30px;
+    text-align: center;
+    color: rgba(5, 5, 5, 0.925);
+    font-weight: bold;
+   
+}
+/* en la clase Registrar se le da estilos */
+.Registrar{
+    padding: auto;
+    margin-left: 1%;
+}
